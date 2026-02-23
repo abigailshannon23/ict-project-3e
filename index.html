@@ -2,56 +2,133 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Portofolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Saya</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        header {
+            background: linear-gradient(90deg, #8B0000, #FF1493);
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 18px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #111111;
+            border-left: 5px solid #FF1493;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #8B0000;
+        }
+
+        h2 {
+            color: #FF1493;
+            border-bottom: 2px solid #8B0000;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: square;
+        }
+
+        .email {
+            color: #FF1493;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #8B0000;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF1493;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #8B0000;
+        }
+    </style>
 </head>
 <body>
 
-    <header class="header">
-        <h1>Portofolio Saya</h1>
-    </header>
+<header>
+    <h1>PORTOFOLIO SAYA</h1>
+    <p>Web Developer | Designer | Programmer</p>
+</header>
 
-    <section class="profile">
-        <img src="foto.jpg" alt="Foto Profil">
-        <h2>Nama Lengkap</h2>
-        <p>Web Developer | Designer</p>
-    </section>
+<div class="container">
 
-    <section class="content">
-        <div class="card">
-            <h3>Biodata</h3>
-            <ul>
-                <li>Nama : Nama Lengkap</li>
-                <li>Tempat, Tanggal Lahir : -</li>
-                <li>Alamat : -</li>
-                <li>Email : email@email.com</li>
-            </ul>
-        </div>
+    <div class="card">
+        <h2>Biodata</h2>
+        <p><strong>Nama:</strong> Nama Lengkap Anda</p>
+        <p><strong>Tempat, Tanggal Lahir:</strong> Kota, 01 Januari 2000</p>
+        <p><strong>Email:</strong> 
+            <a href="mailto:emailanda@gmail.com" class="email">emailanda@gmail.com</a>
+        </p>
+    </div>
 
-        <div class="card">
-            <h3>Riwayat Sekolah</h3>
-            <ul>
-                <li>SD : Nama Sekolah</li>
-                <li>SMP : Nama Sekolah</li>
-                <li>SMA / SMK : Nama Sekolah</li>
-                <li>Perguruan Tinggi : Nama Kampus</li>
-            </ul>
-        </div>
+    <div class="card">
+        <h2>Riwayat Sekolah</h2>
+        <ul>
+            <li>SD Negeri 01 (2006 - 2012)</li>
+            <li>SMP Negeri 01 (2012 - 2015)</li>
+            <li>SMA Negeri 01 (2015 - 2018)</li>
+            <li>Universitas Contoh - Teknik Informatika (2018 - 2022)</li>
+        </ul>
+    </div>
 
-        <div class="card">
-            <h3>Kemampuan</h3>
-            <ul>
-                <li>HTML & CSS</li>
-                <li>JavaScript Dasar</li>
-                <li>Desain UI</li>
-                <li>Microsoft Office</li>
-            </ul>
-        </div>
-    </section>
+    <div class="card">
+        <h2>Skill</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>UI/UX Design</li>
+            <li>Microsoft Office</li>
+            <li>Public Speaking</li>
+        </ul>
+        <a href="#" class="btn">Hubungi Saya</a>
+    </div>
 
-    <footer class="footer">
-        <p>© 2026 Portofolio Saya</p>
-    </footer>
+</div>
+
+<footer>
+    <p>&copy; 2026 Portofolio Saya | Dibuat dengan ❤️</p>
+</footer>
 
 </body>
 </html>
+
